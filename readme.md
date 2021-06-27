@@ -2,6 +2,7 @@ zap good
 replace SERVER_IP with server ip and PORT with txadmin port
 example: 
 
+```
 // ==UserScript==
 // @name         Remove ZAP Hosting AD (TXADMIN)
 // @namespace    http://192.168.1.8:40120/*
@@ -18,5 +19,5 @@ new MutationObserver(function(mutations) {
     const zap = document.querySelector("html > body > div:nth-of-type(3) > header > a:nth-of-type(1)");
     zap.remove();
 }).observe(document, {childList: true, subtree: true});
-
-Please use ZAP. is good!
+```
+plez uz ZAP. is gud!
